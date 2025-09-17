@@ -31,11 +31,43 @@ The system uses **TF-IDF Vectorization** and **Cosine Similarity** to find relat
 
 ---
 
-## 🏗️ Project Architecture  
-
 
 ---
 
-👉 Do you want me to also design a **cover banner (project image)** for this repo (like “Movie Recommendation System 🎬”) so it looks more attractive at the very top of GitHub?
-```
+## 🛠️ Technologies Used  
+
+- **Python**  
+- **NumPy**  
+- **Pandas**  
+- **Scikit-Learn** (`TfidfVectorizer`, `cosine_similarity`)  
+- **Difflib** (for fuzzy matching)  
+- **Google Colab** (execution environment)  
+
+---
+
+## 📂 Dataset  
+
+The dataset (`movies.csv`) contains metadata for movies, including:  
+
+- Title  
+- Genres  
+- Keywords  
+- Tagline  
+- Cast  
+- Director  
+
+⚠️ *Make sure your dataset includes these fields to run the project successfully.*  
+
+---
+
+## 🚀 Usage  
+
+1. Clone the repository / open the notebook in **Google Colab**.  
+2. Upload the dataset (`movies.csv`).  
+3. Run the notebook cells.  
+4. Enter your favorite movie when prompted:  
+
+```bash
+Enter your favourite movie name : Avatar
+
 

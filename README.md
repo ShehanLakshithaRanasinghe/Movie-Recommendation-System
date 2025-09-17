@@ -10,7 +10,7 @@ It suggests similar movies to a user’s favorite by analyzing genres, keywords,
 
 ---
 
-## 📖 Overview  
+##  Overview  
 
 This project demonstrates a **Content-Based Recommendation Engine** for movies.  
 The system uses **TF-IDF Vectorization** and **Cosine Similarity** to find relationships between movies and provide personalized recommendations.  
@@ -20,21 +20,19 @@ The system uses **TF-IDF Vectorization** and **Cosine Similarity** to find relat
 
 ---
 
-## ✨ Features  
+##  Features  
 
-- 🔍 **Content-Based Filtering**: No user history required — recommendations are based solely on movie attributes.  
-- 🧩 **Feature Engineering**: Combines `genres`, `keywords`, `tagline`, `cast`, and `director`.  
-- 🧮 **TF-IDF Vectorization**: Converts text features into numerical vectors.  
-- 📐 **Cosine Similarity**: Measures closeness between movies.  
-- 🎯 **Close Match Handling**: Uses fuzzy matching (`difflib`) to accept similar user inputs.  
-- 📊 **Top-N Recommendations**: Suggests up to 30 similar movies.  
-
----
-
+-  **Content-Based Filtering**: No user history required as recommendations are based solely on movie attributes.  
+-  **Feature Engineering**: Combines `genres`, `keywords`, `tagline`, `cast`, and `director`.  
+-  **TF-IDF Vectorization**: Converts text features into numerical vectors.  
+-  **Cosine Similarity**: Measures closeness between movies.  
+-  **Close Match Handling**: Uses fuzzy matching (`difflib`) to accept similar user inputs.  
+-  **Top-N Recommendations**: Suggests up to 30 similar movies.  
 
 ---
 
-## 🛠️ Technologies Used  
+
+## Technologies Used  
 
 - **Python**  
 - **NumPy**  
@@ -45,7 +43,7 @@ The system uses **TF-IDF Vectorization** and **Cosine Similarity** to find relat
 
 ---
 
-## 📂 Dataset  
+##  Dataset  
 
 The dataset (`movies.csv`) contains metadata for movies, including:  
 
@@ -56,11 +54,10 @@ The dataset (`movies.csv`) contains metadata for movies, including:
 - Cast  
 - Director  
 
-⚠️ *Make sure your dataset includes these fields to run the project successfully.*  
 
 ---
 
-## 🚀 Usage  
+##  Usage  
 
 1. Clone the repository / open the notebook in **Google Colab**.  
 2. Upload the dataset (`movies.csv`).  
@@ -76,6 +73,8 @@ Movies suggested for you :
 2. John Carter
 3. Guardians of the Galaxy
 4. ...
+
+Enter your favourite movie name : Iron Man
 
 Movies suggested for you :  
 

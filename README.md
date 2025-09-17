@@ -70,4 +70,20 @@ The dataset (`movies.csv`) contains metadata for movies, including:
 ```bash
 Enter your favourite movie name : Avatar
 
+Movies suggested for you :
+
+1. Avatar
+2. John Carter
+3. Guardians of the Galaxy
+4. ...
+
+Movies suggested for you :  
+
+1. Iron Man  
+2. Iron Man 2  
+3. The Avengers  
+4. Captain America: The First Avenger  
+5. Thor  
+...
+
 
